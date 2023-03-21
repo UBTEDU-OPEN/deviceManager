@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_screen_monitor_disable</title>
+    <g id="效果图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.299999982">
+        <g id="切图" transform="translate(-273.000000, -192.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="ic_screen_monitor_disable" transform="translate(276.000000, 194.000000)">
+                <circle id="椭圆形" cx="9" cy="9" r="3"></circle>
+                <circle id="椭圆形" cx="9" cy="9" r="9"></circle>
+                <line x1="5.31587315" y1="17.221323" x2="4" y2="20.2330532" id="路径-9" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="14.3107605" y1="17.221323" x2="13.0841064" y2="20.2330532" id="路径-9" stroke-linecap="round" stroke-linejoin="round" transform="translate(13.697433, 18.727188) scale(-1, 1) translate(-13.697433, -18.727188) "></line>
+            </g>
+        </g>
+    </g>
+</svg>

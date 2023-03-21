@@ -1,0 +1,110 @@
+﻿
+QRadioButton::indicator::unchecked 
+{
+    image: url(:/res/images/ic_raido.svg);
+}
+QRadioButton::indicator::checked 
+{
+    image: url(:/res/images/ic_raido_p.svg);
+}
+QPushButton#positionLockBtn
+{
+    color: rgba(255,255,255,178);
+    border: none;
+}
+QCheckBox#selectAll
+{
+    color:rgba(255,255,255,178);
+}
+QCheckBox#selectAll::indicator:unchecked 
+{
+    image: url(:/res/images/ic_select_all.svg);
+}
+QCheckBox#selectAll::indicator:unchecked:hover
+{
+    image: url(:/res/images/ic_select_all_mouseover.svg);
+}
+QCheckBox#selectAll::indicator:checked 
+{
+    image: url(:/res/images/ic_select_all_p.svg);
+}
+
+QPushButton#activateBtn
+{
+    color: white;
+    background: #00A5FF;
+    border-radius: 28px;
+}
+QPushButton#activateBtn:hover
+{
+    background: #0078B9;
+}
+BackgroundWidget QFrame#frame
+{
+    background: #2C313D;
+    border-bottom-right-radius: 12px;
+}
+
+BackgroundWidget QPushButton#add
+{
+    color: white;
+    background: #00A5FF;
+    border-radius: 19px;
+}
+BackgroundWidget QPushButton#add:hover
+{
+    background: #0078B9;
+}
+/* */
+QWidget#cmdsWidget
+{
+    background: #373C49;
+    border-radius: 12px;
+}
+
+QWidget#cmdsWidget QPushButton
+{
+    color: rgba(255,255,255,178);
+    background: transparent;
+    width: 162px;
+    height: 36px;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 15px;
+    padding-left: 20px;
+}
+QWidget#cmdsWidget QPushButton:disabled
+{
+    color: rgba(255,255,255,0.3);
+    background: rgba(0,0,0,0);
+}
+
+QWidget#cmdsWidget QPushButton:hover
+{
+    background: #555E76;
+}
+
+QWidget#cmdsWidget QPushButton:pressed
+{
+    background: #00A5FF;
+}
+/* ToastDialog QFrame#frame
+{
+    color: #FFFFFF;
+    border-radius: 22px;
+    background: rgba(0,0,0,0.8);
+} */
+QGraphicsView
+{
+    background: #2C313D;
+    border: none;
+    /* border-bottom-right-radius: 12px; */
+}
+
+QToolTip
+{
+    border: 1px solid #444A5A;
+    background: #444A5A;
+    border-radius: 2px;
+    color: rgba(255,255,255,0.8);
+}

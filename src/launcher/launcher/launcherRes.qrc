@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/image/ic_logo.svg</file>
+        <file>res/image/ic_sort_off.svg</file>
+        <file>res/image/ic_sort_on.svg</file>
+        <file>res/image/img_package.svg</file>
+        <file>res/image/img_splash_screen.svg</file>
+        <file>res/image/logo_white.svg</file>
+        <file>res/qss/launcher.qss</file>
+        <file>res/image/ic_launcher_bg.png</file>
+    </qresource>
+</RCC>

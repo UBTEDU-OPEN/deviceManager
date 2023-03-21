@@ -1,0 +1,200 @@
+﻿QLabel#ImportLabel {
+    opacity: 0.4;
+    font-family: Microsoft YaHei;
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 16px;
+}
+
+QWidget#ImportSubContainer, QWidget#ImportingProgressContainer{
+    background: #313747;
+    border-radius: 6px;
+}
+
+QLabel#ImportNoticeIcon {
+    background-color: #313747;
+    background-image: url(":/res/images/ic_import.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+QLabel#ImportNoticeLabel {
+    opacity: 0.4;
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 16px;
+}
+
+QPushButton#ImportBtn {
+    background: #00A5FF;
+    border-radius: 14px;
+
+    font-family: Microsoft YaHei;
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 16px;
+}
+
+QLabel#FileIconLabel {
+    background-image: url(":/res/images/ic_zip.svg");
+    background-repeat: no-repeat;
+}
+
+QLabel#FileNameLabel {
+    opacity: 0.8;
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 16px;
+}
+
+QPushButton#CancelImportingBtn {
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+    border-radius: 14px;
+
+    opacity: 0.8;
+    font-family: Microsoft YaHei;
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 16px;
+}
+
+QPushButton#ReselectPkgBtn {
+    background: #5B6479;
+    border-radius: 14px;
+
+    opacity: 0.8;
+    font-family: Microsoft YaHei;
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 16px;
+}
+
+QProgressBar#ImportingProgressBar {
+    border: 0px;
+    border-radius: 3px;
+    background: #5B6479;
+}
+
+QProgressBar#ImportingProgressBar::chunk {
+    background-color: #30E0FE;
+    border-radius: 3px;
+}
+
+QLabel#ImportingProgressLabel {
+    opacity: 0.8;
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 16px;
+}
+
+QLabel#InfoIcon[exception="true"] {
+    background-color: #313747;
+    background-image: url(":/res/images/ic_device_warning.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+QLabel#InfoIcon[exception="false"] {
+    background-color: #313747;
+    background-image: url(":/res/images/ic_added_successfully.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+QLabel#InfoLabel[exception="true"] {
+    font-family: Microsoft YaHei;
+    font-size: 13px;
+    color:  #FF2F6F;
+    line-height: 16px;
+}
+
+QLabel#InfoLabel[exception="false"] {
+    opacity: 0.4;
+    font-family: Microsoft YaHei;
+    font-size: 13px;
+    color: rgba(166, 109, 48, 1);
+    line-height: 16px;
+}
+
+QWidget#DevLstHead {
+    background: #313747;
+}
+
+QLabel#DevLstNameTitle, QLabel#DevLstSNTitle, QLabel#DevLstVersionTitle, QLabel#DevLstStatusTitle {
+    opacity: 0.4;
+    font-family: Microsoft YaHei;
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 16px;
+
+    background: #313747;
+}
+
+QListView#DevLstView {
+    alternate-background-color: #313747;
+    background: #2B3140;
+    color: #FFFFFF;
+}
+
+QListView#DevLstView::item {
+    height: 40px;
+    outline: 0px;
+}
+
+QLabel#UpgradeNoticeLabel {
+    opacity: 0.8;
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 16px;
+}
+
+QPushButton#UpgradeBtn:enabled, QPushButton#StopUpgradeBtn:enabled {
+    background: #00A5FF;
+    border-radius: 14px;
+
+    font-family: Microsoft YaHei;
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 16px;
+}
+
+QPushButton#UpgradeBtn:disabled, QPushButton#StopUpgradeBtn:disabled {
+    background: #52A5D2;
+    border-radius: 14px;
+
+    opacity: 0.3;
+    font-family: Microsoft YaHei;
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 16px;
+}
+
+QScrollBar:vertical{
+    background-color:#242A37;
+    width: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+QScrollBar::add-page:vertical{background-color:#242A37;}
+QScrollBar::sub-page:vertical{background-color:#242A37;}
+QScrollBar::handle:vertical{
+    background: #777F94;
+    min-height:80px;
+}
+QScrollBar::add-line:vertical{
+    border:none; 
+    background:none;
+}
+QScrollBar::sub-line:vertical{
+    border:none; 
+    background:none;
+}
+
+
+
+

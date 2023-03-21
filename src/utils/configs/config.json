@@ -1,0 +1,15 @@
+﻿{
+    "groupVersion":"1.0.0.6",
+    "launcher":"1.0.0.6",
+    "mainFrame":"1.2.0.6",
+    "plugins": [
+        {
+            "name":"AIBox",
+            "version":"1.2.0.7"
+        },
+        {
+            "name":"Yanshee",
+            "version":"1.2.0.8"
+        }
+    ]
+}

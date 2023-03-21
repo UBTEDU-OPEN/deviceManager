@@ -1,0 +1,37 @@
+TabContainer
+{
+    background: #313745;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+QPushButton#preBtn{border-image: url(:/res/images/btn_previous_disable.svg);}
+QPushButton#preBtn:hover{border-image: url(:/res/images/btn_previous.svg);}
+QPushButton#preBtn:pressed{border-image: url(:/res/images/btn_previous_p.svg);}
+QPushButton#nextBtn{border-image: url(:/res/images/btn_next_disable.svg);}
+QPushButton#nextBtn:hover{border-image: url(:/res/images/btn_next.svg);}
+QPushButton#nextBtn:pressed{border-image: url(:/res/images/btn_next_p.svg);}
+QPushButton#addBtn{border-image: url(:/res/images/ic_add_type.svg);}
+QPushButton#addBtn:hover{border-image: url(:/res/images/ic_add_type_mouseover.svg);}
+QPushButton#addBtn:pressed{border-image: url(:/res/images/ic_add_type_p.svg);}
+
+TabWidget[selected=false]
+{
+    background: #444B5E;
+    border-radius: 6px;
+}
+
+TabWidget[selected=true]
+{
+    background: #00A5FF;
+    border-radius: 6px;
+}
+
+TabWidget QLabel#label
+{
+    color: rgba(255,255,255,178);
+}
+
+
+TabWidget QPushButton#close{border-image: url(:/res/images/ic_close_tab.svg);}
+TabWidget QPushButton#close:pressed{border-image: url(:/res/images/ic_close_tab_p.svg);}

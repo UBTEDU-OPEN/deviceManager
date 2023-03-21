@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_added_successfully</title>
+    <g id="效果图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-495.000000, -34.000000)">
+            <g id="ic_added_successfully" transform="translate(495.000000, 34.000000)">
+                <circle id="椭圆形" fill="#00A5FF" cx="10" cy="10" r="10"></circle>
+                <path d="M8.64680961,14.8125 C8.38319076,14.8125 8.12061388,14.7153206 7.91951334,14.5219636 L4.80086934,11.1897493 C4.39971022,10.8020336 4.39971022,10.172872 4.80086934,9.78515625 C5.20307044,9.39744047 5.85430278,9.39744047 6.2554619,9.78515625 L8.64680961,12.415074 L15.1195381,6.16653822 C15.5206972,5.77782059 16.1719296,5.77782059 16.5741307,6.16653822 C16.9752898,6.55425401 16.9752898,7.18241369 16.5741307,7.57012947 L9.37410589,14.5219636 C9.17300535,14.7153206 8.90938649,14.8125 8.64680961,14.8125 Z" id="路径" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

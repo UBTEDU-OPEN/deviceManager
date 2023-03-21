@@ -1,0 +1,9 @@
+[submodule "trd/protobuf"]
+	path = trd/protobuf
+	url = https://github.com/protocolbuffers/protobuf.git
+[submodule "trd/glog"]
+	path = trd/glog
+	url = https://github.com/google/glog.git
+[submodule "trd/QXlsx"]
+	path = trd/QXlsx
+	url = https://github.com/QtExcel/QXlsx.git

@@ -1,0 +1,43 @@
+﻿QWidget#Launcher {
+    background: #1D232D;
+}
+
+QLabel#IconLabel {
+    background: url(:/res/image/logo_white.svg);
+}
+
+QLabel#NameLabel {
+    color: rgba(255,255,255,80%);
+    font-family: Microsoft YaHei;
+    font-size: 18px;
+    text-align: center;
+}
+
+QLabel#StatusLabel {
+    color: rgba(255,255,255,80%);
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+    text-align: center;
+}
+
+QPushButton#CancelBtn {
+    background: transparent;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 14px;
+    color: #FFFFFF;
+    font-family: Microsoft YaHei;
+    font-size: 13px;
+}
+
+QProgressBar#ProgressBar {
+    border: 0px;
+    border-radius: 2px;
+    background: #2E384F;
+}
+
+QProgressBar#ProgressBar::chunk {
+    background-color: #00D8FD;
+    border-radius: 2px;
+}

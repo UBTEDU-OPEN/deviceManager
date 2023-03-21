@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/qss/upgradableModulesSelector.qss</file>
+        <file>res/qss/commonDialog.qss</file>
+        <file>res/image/ic_close.svg</file>
+        <file>res/image/ic_close_mouseover.svg</file>
+        <file>res/image/ic_close_p.svg</file>
+        <file>res/image/ic_checkbox.svg</file>
+        <file>res/image/ic_checkbox_mouseover.svg</file>
+        <file>res/image/ic_checkbox_p.svg</file>
+        <file>res/qss/cancelUpgradeConfirmDlg.qss</file>
+        <file>res/image/ic_device_warning.svg</file>
+    </qresource>
+</RCC>

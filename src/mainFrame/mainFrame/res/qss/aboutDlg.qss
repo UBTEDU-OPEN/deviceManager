@@ -1,0 +1,50 @@
+﻿AboutDlg {
+    background: #444A5A;
+}
+
+AboutDlg QLabel#NameLabel {
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 16px;
+}
+
+AboutDlg QLabel#VersionLabel {
+    opacity: 0.6;
+    font-family: Microsoft YaHei;
+    font-size: 12px;
+    color: rgba(255,255,255,125);
+    text-align: center;
+    line-height: 16px;
+}
+
+AboutDlg QLabel#PrivacyLabel {
+    font-family: Microsoft YaHei;
+    font-size: 13px;
+    color: #18ADFF;
+    line-height: 16px;
+}
+
+AboutDlg QPushButton#VersionCheckBtn {
+    background: #00A5FF;
+    border-radius: 14px;
+    border-radius: 14px;
+    font-family: Microsoft YaHei;
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 16px;
+}
+
+QMessageBox {
+    background: #444A5A;
+    color: white;
+}
+
+QMessageBox QPushButton {
+    background: #444A5A;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    width: 60px;
+    height: 24px;
+}

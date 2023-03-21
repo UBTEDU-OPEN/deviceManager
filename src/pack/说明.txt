@@ -1,0 +1,3 @@
+安装程序采用INNO SETUP6.2.0版本
+由于隐私协议的定制要求，需要将ChineseSimplified.isl和Default.isl替换，这两个文件修改了WizardLicense的赋值
+将inno setup路径添加到path，并修改utool_hm.iss和compile.bat中的路径为自己的路径，然后执行compile.bat

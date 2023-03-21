@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_shared_file</title>
+    <defs>
+        <filter x="-14.3%" y="-14.8%" width="128.6%" height="129.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.178786195   0 0 0 0 0.443230798   0 0 0 0 0.683139303  0 0 0 0.202854397 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M10,4.90274488e-13 L33.9106974,4.90274488e-13 C35.7943938,4.86479043e-13 37.5687439,0.884630198 38.7024188,2.38898823 L43.7444687,9.07966105 L43.7444687,9.07966105 L102,9.07966105 C107.522847,9.07966105 112,13.5568136 112,19.0796611 L112,56.9333333 L112,56.9333333 L0,56.9333333 L0,10 C-2.45271059e-15,4.4771525 4.4771525,4.89512661e-13 10,4.90274488e-13 Z" id="path-2"></path>
+        <filter x="-5.4%" y="-27.3%" width="110.7%" height="154.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="50%" y1="0.407441679%" x2="50%" y2="98.4457366%" id="linearGradient-5">
+            <stop stop-color="#A2DFFF" offset="0%"></stop>
+            <stop stop-color="#69CFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="效果图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-22.000000, -626.000000)">
+            <g id="ic_shared_file" filter="url(#filter-1)" transform="translate(26.000000, 631.000000)">
+                <g id="矩形">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="蒙版" fill="#3D9FD4" xlink:href="#path-2"></use>
+                    <rect fill="#193C73" opacity="0.319976448" filter="url(#filter-4)" mask="url(#mask-3)" x="0" y="15" width="112" height="22"></rect>
+                </g>
+                <path d="M5.6,20 L106.4,20 C109.492795,20 112,22.5072054 112,25.6 L112,55.4666667 C112,58.5594613 109.492795,61.0666667 106.4,61.0666667 L5.6,61.0666667 C2.5072054,61.0666667 2.15511494e-15,58.5594613 0,55.4666667 L0,25.6 C-3.78758101e-16,22.5072054 2.5072054,20 5.6,20 Z" id="矩形" fill="#C6E7F7"></path>
+                <path d="M5.6,28 L106.4,28 C109.492795,28 112,30.5072054 112,33.6 L112,63.4666667 C112,66.5594613 109.492795,69.0666667 106.4,69.0666667 L5.6,69.0666667 C2.5072054,69.0666667 2.15511494e-15,66.5594613 0,63.4666667 L0,33.6 C-3.78758101e-16,30.5072054 2.5072054,28 5.6,28 Z" id="矩形" fill="#FFFFFF"></path>
+                <path d="M6,36 L106,36 C109.313708,36 112,38.6862915 112,42 L112,91.6 C112,100.436556 104.836556,107.6 96,107.6 L16,107.6 C7.163444,107.6 1.082166e-15,100.436556 0,91.6 L0,42 C4.82366169e-16,38.6862915 2.6862915,36 6,36 Z" id="Mask" fill="url(#linearGradient-5)"></path>
+                <path d="M48,79.9977569 C46.875,79.9977569 45.875,80.3728411 45,80.9979812 L37.75,76.872056 C37.875,76.2469158 38,75.6217756 38,74.9966354 C38,74.3714952 37.875,73.8713831 37.75,73.2462429 L45,69.1203176 C46.875,70.495626 49.375,70.370598 51.125,68.8702615 C52.875,67.3699251 53.375,64.8693643 52.375,62.7438877 C51.375,60.743439 49,59.6181867 46.75,60.1182988 C44.5,60.618411 43,62.6188596 43,64.9943923 C43,65.3694765 43,65.8695886 43.125,66.2446727 L36.25,70.2455699 C34.375,67.7450092 31,66.8698129 28,67.8700372 C25,68.8702615 23,71.7459064 23,74.8716074 C23,77.9973083 24.875,80.8729532 27.875,81.9982055 C30.875,83.1234579 34.125,82.2482616 36.25,79.7477009 L43.125,83.7485981 C43,84.2487102 43,84.6237944 43,84.9988785 C43,87.7494953 45.25,90 48,90 C50.75,90 53,87.7494953 53,84.9988785 C53,82.2482616 50.75,79.9977569 48,79.9977569 Z" id="路径" fill="#53B4E0" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

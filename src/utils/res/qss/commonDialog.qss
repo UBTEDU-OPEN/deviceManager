@@ -1,0 +1,66 @@
+﻿/* CommonDialog */
+CommonDialog #title
+{
+    height: 36px;
+    background: #505769;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+CommonDialog #titleName{ color: white; }
+CommonDialog #text
+{
+    color: rgba(255,255,255,0.8);
+    font-size: 13px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+CommonDialog QWidget#centralWidget
+{
+    background: #444A5A;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+CommonDialog QPushButton#closeButton{border-image: url(:/res/image/ic_close.svg);}
+CommonDialog QPushButton#closeButton:hover{border-image: url(:/res/image/ic_close_mouseover.svg);}
+CommonDialog QPushButton#closeButton:pressed{border-image: url(:/res/image/ic_close_p.svg);}
+CommonDialog QPushButton#cancelButton
+{
+    background: transparent;
+    border-radius: 14px;
+    border: 1px solid white;
+    color: white;
+}
+/*CommonDialog QPushButton#cancelButton:hover
+{
+    background: #313747;
+    border-radius: 14px;
+    border: 1px solid white;
+    color: white;
+}*/
+CommonDialog QPushButton#cancelButton:disabled
+{
+    background: #5F6576;
+    opacity: 76;
+}
+CommonDialog QPushButton#okButton,QPushButton#ok2
+{
+    background: #00A5FF;
+    border-radius: 14px;
+    color: white;
+}
+CommonDialog QPushButton#okButton:hover,QPushButton#ok2:hover
+{
+    background: #0078B9;
+    border-radius: 14px;
+    color: white;
+}
+CommonDialog QPushButton#okButton:disabled,QPushButton#ok2:disabled
+{
+    background: #52A5D2;
+    opacity: 76;
+}
+

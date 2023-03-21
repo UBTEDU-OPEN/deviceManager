@@ -1,0 +1,58 @@
+CloseWarningDialog QLabel,QPushButton
+{
+    color: white;
+}
+
+CloseWarningDialog #titleBar
+{
+    height: 36px;
+    background: #505769;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    
+}
+
+CloseWarningDialog #widget
+{
+    background: #444A5A;
+    border-radius: 4px;
+}
+
+CloseWarningDialog QPushButton#close{border-image: url(:/res/images/ic_close.svg);}
+CloseWarningDialog QPushButton#close:hover{border-image: url(:/res/images/ic_close_mouseover.svg);}
+CloseWarningDialog QPushButton#close:pressed{border-image: url(:/res/images/ic_close_p.svg);}
+
+CloseWarningDialog QPushButton#cancel
+{
+    background: #5B6479;
+    border-radius: 3px;
+    color: white;
+}
+CloseWarningDialog QPushButton#cancel:hover
+{
+    background: #313747;
+    border-radius: 3px;
+    color: white;
+}
+CloseWarningDialog QPushButton#cancel:disabled
+{
+    background: #5F6576;
+    opacity: 76;
+}
+CloseWarningDialog QPushButton#ok
+{
+    background: #00A5FF;
+    border-radius: 3px;
+    color: white;
+}
+CloseWarningDialog QPushButton#ok
+{
+    background: #0078B9;
+    border-radius: 3px;
+    color: white;
+}
+CloseWarningDialog QPushButton#ok
+{
+    background: #52A5D2;
+    opacity: 76;
+}

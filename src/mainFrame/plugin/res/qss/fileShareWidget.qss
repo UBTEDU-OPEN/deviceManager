@@ -1,0 +1,40 @@
+﻿QWidget#FileShareWidget {
+    background: #444A5A;
+}
+
+QWidget#Header {
+    background: #313747;
+}
+
+QLabel#NameTitle, QLabel#OperationTitle, QLabel#ShareTimeTitle {
+    background: #313747;
+    font-family: Microsoft YaHei;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+QPushButton#AddBtn {
+    background: #00A5FF;
+    border-radius: 14px;
+    color: #FFFFFF;
+}
+
+QListView#SharedFilesListView {
+    alternate-background-color: #313747;
+    background: #2B3140;
+    color: #FFFFFF;
+}
+
+QListView#SharedFilesListView::item {
+    height: 40px;
+    outline: 0px;
+    padding-left: 20px;
+    color: rgba(255,255,255,204);
+}
+
+QHeaderView::section {
+    border: none;
+    background: #2B3140;
+    text-align: left;
+    padding-left: 22px;
+}

@@ -1,0 +1,159 @@
+syntax = "proto3";
+package dm;
+
+//please do not set enum value to 0, set to a useless 
+
+enum ERRORCODE
+{
+    SUCCESS = 0;
+    RECEIVED = 1; 
+}
+
+message TransMsg
+{
+    enum PACKAGETYPE {
+        UNKNOWNPACKAGE = 0;
+        CMDPACKAGE = 1;
+        BROADCASTPACKAGE = 2;
+        CONNECTPACKAGE = 3;
+        RESPONSEPACKAGE = 4;
+        STATEPACKAGE = 5;
+        PERCENTPACKAGE = 6;
+        FILEREQUESTPACKAGE = 7;
+        FILEINFOPACKAGE = 8;
+        RECVREADYPACKAGE = 9;
+        FILECONTENTPACKAGE = 10;
+        REQUESTSHAREDFILELISTPACKAGE = 11;
+        SHAREDFILELISTPACKAGE = 12;
+        UPGRADESTAGEPACKAGE = 13;
+        CONNECTRESPONSEPACKAGE = 14;
+        STATUSPACKAGE = 15;
+        CMDPACKAGE_V2 = 16;
+    }
+    PACKAGETYPE packageType = 1;
+    bytes packageContent = 2;
+}
+
+message CmdPackage
+{
+    enum CMDTYPE {
+        UNKNOWN = 0;
+        SHUTDOWN = 1;
+        REBOOT = 2;
+        RESET = 3;
+        LOCK = 4;
+        UPGRADE = 5;
+        CANCELUPGRADE = 6;
+    }
+    CMDTYPE cmd = 1;
+    optional bool lock = 2;
+    optional string version = 3;
+    optional string  imgName = 4;
+    optional bool saveUserData = 5;
+}
+
+message CmdPackageV2
+{
+    enum CMDTYPE {
+        UNKNOWN = 0;
+        SHUTDOWN = 1;
+        REBOOT = 2;
+        RESET = 3;
+        LOCK = 4;
+        UPGRADE = 5;
+        CANCELUPGRADE = 6;
+    }
+    CMDTYPE cmd = 1;
+    bytes parameters = 2; 
+}
+message BroadcastPackage
+{
+	string query = 1;
+}
+
+message ConnectPackage
+{
+	bool connect = 1;
+}
+
+message ResponsePackage
+{
+    int32 code = 1;
+    string message = 2;
+}
+
+message StatePackage
+{
+    int32 power = 1;
+    bool charging = 2;
+    string sn = 3;
+    bool lock = 4;
+    string version = 5;
+    int32 state = 6;
+}
+
+message StatusPackage
+{
+    int32 power = 1;
+    bool charging = 2;
+    string sn = 3;
+    bool lock = 4;
+    string version = 5;
+    int32 state = 6;
+    int32 deviceType = 7;
+}
+
+message PercentPackage
+{
+    int32 percentage = 1;
+} 
+
+message FileRequestPackage
+{
+    string fileName = 1; //utf-8
+    bool isSharedFile = 2;
+}
+
+message FileInfoPackage
+{
+    string fileName = 1; //utf-8
+    string md5 =2;
+    uint64 size = 3;
+    bytes other = 4;
+    bool isSharedFile = 5;
+}
+
+message RecvReadyPackage
+{
+    string fileName = 1;
+    uint64 offset = 2;
+    bool isSharedFile = 3;
+}
+
+message SharedFileInfo
+{
+    string fileName = 1; //utf-8
+    uint64 shareTimeStamp = 2; //unix time stamp
+    uint64 size = 3;
+}
+
+message SharedFileListPackage
+{
+    repeated  SharedFileInfo sharedFile = 1;
+}
+
+message RequestSharedFileListPackage
+{
+    string reserved = 1; 
+}
+
+message UpgradeStagePackage
+{
+    int32 stage = 1;
+}
+
+message ConnectResponsePackage
+{
+    string sn = 1;
+    string serverIp = 2; 
+}

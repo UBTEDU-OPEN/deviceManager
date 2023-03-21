@@ -1,0 +1,215 @@
+﻿QMainWindow#mainFrame{
+    background: #1E232D;
+    font-family: Microsoft YaHei;
+}
+
+QMenu { border-radius: 2px; background-color: #444A5A; color:#FFFFFF; padding: 0px 5px; }
+QMenu::item { font-size: 14px; padding: 5px 37px; margin: 10px 0px; border-radius: 4px;}
+QMenu::item:selected { background-color: #5B6479; }
+
+QPushButton#file{background-color: #1E232D;color:white;border:0px;}
+QPushButton#file:hover{background-color: #313745;}
+QPushButton#file:pressed{background: #00A5FF;}
+QPushButton#help{background-color: #1E232D;color:white;border:0px;}
+QPushButton#help:hover{background-color: #313745;}
+QPushButton#help:pressed{background: #00A5FF;}
+QPushButton#min{border-image: url(:/res/images/ic_minimize.svg);}
+QPushButton#min:hover{border-image: url(:/res/images/ic_minimize_mouseover.svg);}
+QPushButton#min:pressed{border-image: url(:/res/images/ic_minimize_p.svg);}
+QPushButton#max{border-image: url(:/res/images/ic_maximize.svg);}
+QPushButton#max:hover{border-image: url(:/res/images/ic_maximize_mouseover.svg);}
+QPushButton#max:pressed{border-image: url(:/res/images/ic_maximize_p.svg);}
+QPushButton#close{border-image: url(:/res/images/ic_close.svg);}
+QPushButton#close:hover{border-image: url(:/res/images/ic_close_mouseover.svg);}
+QPushButton#close:pressed{border-image: url(:/res/images/ic_close_p.svg);}
+
+PlatformSelectionDialog QWidget#centralWidget
+{ 
+    opacity: 230;
+    background: rgba(68,74,90,224);
+    border-radius: 4px;
+}
+
+PlatformSelectionDialog QLabel
+{
+    color: white;
+}
+
+PlatformSelectionDialog QPushButton#close
+{
+    border-image: url(:/res/images/ic_close_pop.svg);
+}
+PlatformSelectionDialog QPushButton#close:hover
+{
+    border-image: url(:/res/images/ic_close_pop_p.svg);
+}
+PlatformSelectionDialog QPushButton#close:pressed
+{
+    border-image: url(:/res/images/ic_close_pop_p.svg);
+}
+PlatformSelectionDialog QPushButton#aibox
+{
+    border-image: url(:/res/images/ic_aibox.png);
+}
+PlatformSelectionDialog QPushButton#aibox:hover
+{
+    border-image: url(:/res/images/ic_aibox_p.png);
+}
+PlatformSelectionDialog QPushButton#aibox:disabled
+{
+    border-image: url(:/res/images/ic_aibox_disable.png);
+}
+PlatformSelectionDialog QPushButton#wuKong
+{
+    border-image: url(:/res/images/ic_mini.png);
+}
+PlatformSelectionDialog QPushButton#wuKong:hover
+{
+    border-image: url(:/res/images/ic_mini_p.png);
+}
+PlatformSelectionDialog QPushButton#wuKong:disabled
+{
+    border-image: url(:/res/images/ic_mini_disable.png);
+}
+PlatformSelectionDialog QPushButton#yanshee
+{
+    border-image: url(:/res/images/ic_yanshee.png);
+}
+PlatformSelectionDialog QPushButton#yanshee:hover
+{
+    border-image: url(:/res/images/ic_yanshee_p.png);
+}
+PlatformSelectionDialog QPushButton#yanshee:disabled
+{
+    border-image: url(:/res/images/ic_yanshee_disable.png);
+}
+
+AddNewClassroomWidget QPushButton#addBtn
+{
+    color: white;
+    background: #00A5FF;
+    border-radius: 19px;
+}
+AddNewClassroomWidget QPushButton#addBtn:hover
+{
+    background: #0078B9;
+}
+
+QTabWidget::pane 
+{
+    background:  #2C313D;
+    border: none;
+    padding-top: 0px;
+    border-radius: 10px;
+}
+
+QTabWidget::tab-bar 
+{
+    left: 4px;
+    background: red;
+} 
+
+QTabBar::tab
+{
+    color: rgba(255,255,255,178);
+    background: #444B5E;
+    border-radius: 6px;
+    font-family: Microsoft YaHei;
+    font-size: 17px;
+    text-align: center;
+    height: 36px;
+    min-width: 180px; 
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 9px;
+    margin-top: 9px;
+}
+
+QTabBar::tab:selected
+{
+    background: #00A5FF;
+}
+
+QTabBar::close-button
+{ 
+    image: url(:/res/images/ic_close_tab.svg);
+}
+QTabBar::close-button:hover
+{ 
+    image: url(:/res/images/ic_close_tab_p.svg); 
+}
+
+QTabBar::tear {
+    width: 0px;
+    border: none;
+}
+
+QTabBar QToolButton
+{
+   border: none;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   /*max-height: 36px;
+   max-width: 20px;*/
+}
+
+QTabBar QToolButton::right-arrow {
+    height: 36px;
+    width: 20px;
+    border-width: 0px;
+    background-color: #313745;
+    border-image: url(:/res/images/btn_next.svg);
+}
+
+QTabBar QToolButton::right-arrow:hover {
+    border-image: url(:/res/images/btn_next_p.svg);
+}
+
+QTabBar QToolButton::right-arrow:pressed {
+    border-image: url(:/res/images/btn_next_p.svg);
+}
+
+QTabBar QToolButton::right-arrow:disabled {
+    border-image: url(:/res/images/btn_next_disable.svg);
+}
+
+QTabBar QToolButton::left-arrow {
+    height: 36px;
+    width: 20px;
+    border-image: url(:/res/images/btn_previous.svg);
+}
+
+QTabBar QToolButton::left-arrow:hover {
+    border-image: url(:/res/images/btn_previous_p.svg);
+}
+
+QTabBar QToolButton::left-arrow:pressed {
+    border-image: url(:/res/images/btn_previous_p.svg);
+}
+
+QTabBar QToolButton::left-arrow:disabled {
+    border-image: url(:/res/images/btn_previous_disable.svg);
+}
+
+
+QFrame#classroomContainerFrame
+{
+    background: #1E232D;
+    /* border-radius: 10px; */
+}
+
+
+QWidget#tabWidgetContainer
+{
+    background: #2C313D;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+QToolTip
+{
+    border: 1px solid #444A5A;
+    background: #444A5A;
+    border-radius: 2px;
+    color: rgba(255,255,255,0.8);
+}

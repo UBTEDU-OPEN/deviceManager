@@ -1,0 +1,5 @@
+.lib
+.exp
+.ilk
+.pdb
+utils\

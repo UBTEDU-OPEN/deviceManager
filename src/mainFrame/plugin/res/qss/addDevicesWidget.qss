@@ -1,0 +1,56 @@
+﻿AddDevicesWidget QLabel,QRadioButton
+{
+    color: white;
+}
+AddDevicesWidget QPushButton#choose
+{
+    background: #5B6479;
+    border-radius: 14px;
+    color: white;
+}
+AddDevicesWidget QPushButton#choose:hover
+{
+    background: #00A5FF;
+}
+
+AddDevicesWidget QPushButton#choose:disabled
+{
+    color: rgba(255,255,255,0.3);
+}
+
+AddDevicesWidget QPushButton#preview
+{
+    background: #313747;
+    border: none;
+    font-size: 13px;
+    color: #33ABED;
+}
+
+AddDevicesWidget QLineEdit#sn
+{
+    background: #383E4E;
+    border-radius: 4px;
+    color: white;
+}
+AddDevicesWidget QFrame#frame
+{
+    background: #313747;
+    border-radius: 4px;
+}
+AddDevicesWidget QRadioButton::unchecked 
+{
+    color: rgba(255,255,255,76);
+}
+AddDevicesWidget QRadioButton::checked 
+{
+    color: rgba(255,255,255,204);
+}
+AddDevicesWidget QRadioButton::indicator::unchecked 
+{
+    image: url(:/res/images/ic_raido.svg);
+}
+AddDevicesWidget QRadioButton::indicator::checked 
+{
+    image: url(:/res/images/ic_raido_p.svg);
+}
+

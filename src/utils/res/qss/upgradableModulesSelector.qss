@@ -1,0 +1,110 @@
+﻿QDialog#UpgradableModulesSelector {
+    background: #444A5A;
+}
+
+QLabel#TitleLabel {
+    color: #FFFFFF;
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+    text-align: left;
+}
+
+QTableWidget#UpgradableModulesTable {
+    background: #313747;
+    border-radius: 6px;
+    border-radius: 6px;
+}
+
+QTextBrowser#UpdateLog {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    opacity: 0.8;
+    font-family: Microsoft YaHei;
+    font-size: 12px;
+    color: rgba(255,255,255,80%);
+    background: #313747;
+    border: none;
+    border-radius: 6px;
+    border-radius: 6px;
+}
+
+QHeaderView {
+    background: #2B3140;
+    font-family: Microsoft YaHei;
+    font-size: 13px;
+    color: rgba(255,255,255,40%);
+    border-radius: 8px;
+}
+
+QHeaderView::section {
+    background: #2B3140;
+    text-align: left;
+    padding-left: 22px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+QTableWidget#UpgradableModulesTable {
+    color: rgba(255,255,255,80%);
+}
+
+QTableWidget#UpgradableModulesTable::item {
+    padding-left: 20px;
+}
+
+QTableWidget#UpgradableModulesTable::indicator:unchecked {
+    background: url(:/res/image/ic_checkbox.svg);
+}
+
+QScrollBar:vertical{
+    background-color:#242A37;
+    width: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+QScrollBar::add-page:vertical{background-color:#242A37;}
+
+QScrollBar::sub-page:vertical{background-color:#242A37;}
+
+QScrollBar::handle:vertical{
+    background: #777F94;
+    min-height:80px;
+}
+
+QScrollBar::add-line:vertical{
+    border:none;
+    background:none;
+}
+
+QScrollBar::sub-line:vertical{
+    border:none;
+    background:none;
+}
+
+QTableWidget#UpgradableModulesTable::indicator:checked {
+    background: url(:/res/image/ic_checkbox_p.svg);
+}
+
+QPushButton#IgnoreBtn {
+    border: 1px solid #FFFFFF;
+    border-radius: 14px;
+    border-radius: 14px;
+    background: #444A5A;
+    font-family: Microsoft YaHei;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+QPushButton#UpgradeBtn {
+    border: none;
+    border-radius: 14px;
+    border-radius: 14px;
+    background: #00A5FF;
+    font-family: Microsoft YaHei;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+

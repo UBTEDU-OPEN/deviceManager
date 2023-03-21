@@ -1,0 +1,43 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/images/ic_aibox.png</file>
+        <file>res/images/ic_aibox_disable.png</file>
+        <file>res/images/ic_aibox_p.png</file>
+        <file>res/images/ic_close.svg</file>
+        <file>res/images/ic_close_mouseover.svg</file>
+        <file>res/images/ic_close_p.svg</file>
+        <file>res/images/ic_close_pop.svg</file>
+        <file>res/images/ic_close_pop_p.svg</file>
+        <file>res/images/ic_maximize.svg</file>
+        <file>res/images/ic_maximize_mouseover.svg</file>
+        <file>res/images/ic_maximize_p.svg</file>
+        <file>res/images/ic_mini.png</file>
+        <file>res/images/ic_mini_disable.png</file>
+        <file>res/images/ic_mini_p.png</file>
+        <file>res/images/ic_minimize.svg</file>
+        <file>res/images/ic_minimize_mouseover.svg</file>
+        <file>res/images/ic_minimize_p.svg</file>
+        <file>res/qss/main_frame.qss</file>
+        <file>res/qss/titleBar.qss</file>
+        <file>res/qss/aboutWidget.qss</file>
+        <file>res/qss/exportwidget.qss</file>
+        <file>res/qss/renamewidget.qss</file>
+        <file>res/images/ic_tips_warning.svg</file>
+        <file>res/qss/closeWarningDialog.qss</file>
+        <file>res/images/ic_close_tab.svg</file>
+        <file>res/images/ic_close_tab_p.svg</file>
+        <file>res/qss/nameConflictDialog.qss</file>
+        <file>res/images/HM64.png</file>
+        <file>res/images/btn_next.svg</file>
+        <file>res/images/btn_next_disable.svg</file>
+        <file>res/images/btn_next_p.svg</file>
+        <file>res/images/btn_previous.svg</file>
+        <file>res/images/btn_previous_disable.svg</file>
+        <file>res/images/btn_previous_p.svg</file>
+        <file>res/qss/aboutDlg.qss</file>
+        <file>res/images/ic_add_type.svg</file>
+        <file>res/images/ic_add_type_mouseover.svg</file>
+        <file>res/images/ic_add_type_p.svg</file>
+        <file>res/qss/tabContainer.qss</file>
+    </qresource>
+</RCC>

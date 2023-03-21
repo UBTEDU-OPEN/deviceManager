@@ -1,0 +1,44 @@
+﻿exportwidget QLabel,QPushButton
+{
+    color: white;
+
+}
+
+exportwidget #centralwidget
+{
+    background: #444A5A;
+    border-radius: 4px;
+}
+
+exportwidget #titlebar
+{
+    height: 36px;
+    background: #505769;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+}
+
+exportwidget QPushButton#pbclose{border-image: url(:/res/images/ic_close.svg);}
+exportwidget QPushButton#pbclose:hover{border-image: url(:/res/images/ic_close_mouseover.svg);}
+exportwidget QPushButton#pbclose:pressed{border-image: url(:/res/images/ic_close_p.svg);}
+
+exportwidget QPushButton#pbok
+{
+    background: #00A5FF;
+    border-radius: 3px;
+}
+
+exportwidget QPushButton#pbcancel
+{
+    background: #5B6479;
+    border-radius: 3px;
+}
+
+exportwidget QWidget#wdpath
+{
+    background-color:#313747;
+    border-radius:4px;
+}
+
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_lock_operation</title>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.87825053%" id="linearGradient-1">
+            <stop stop-color="#E91C5C" offset="0%"></stop>
+            <stop stop-color="#FF7479" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="效果图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-507.000000, -480.000000)">
+            <g id="ic_lock_operation" transform="translate(507.000000, 480.000000)">
+                <circle id="椭圆形" fill="url(#linearGradient-1)" cx="19" cy="19" r="19"></circle>
+                <path d="M12.4,17 L25.6,17 C26.9254834,17 28,18.0745166 28,19.4 L28,26.6 C28,27.9254834 26.9254834,29 25.6,29 L12.4,29 C11.0745166,29 10,27.9254834 10,26.6 L10,19.4 C10,18.0745166 11.0745166,17 12.4,17 Z" id="矩形" fill="#FFFFFF"></path>
+                <path d="M13.9984469,17.0583389 C13.9431685,12.3328125 15.6391071,9.97004938 19.0862627,9.97004938 C22.5334183,9.97004938 24.1801338,12.363231 24.0264091,17.1495943" id="路径-8" stroke="#FFFFFF" stroke-width="2.4"></path>
+            </g>
+        </g>
+    </g>
+</svg>

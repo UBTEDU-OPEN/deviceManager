@@ -1,0 +1,24 @@
+﻿QWidget#FileSelectionWidget {
+    background: #444A5A;
+}
+
+QWidget#FileSelectionWidgetContainer {
+    background: #313747;
+    border-radius: 4px;
+}
+
+QLabel#ShareFileNameLabel {
+    opacity: 0.8;
+    font-family: Microsoft YaHei;
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 16px;
+}
+
+QPushButton#ShareFileSelectButton {
+    background: #5E6A86;
+    border-radius: 14px;
+    font-family: Microsoft YaHei;
+    font-size: 13px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,14 @@
+﻿QDialog#CancelUpgradeConfirmDlg {
+    background: #444A5A;
+}
+
+QLabel#IconLabel {
+    background: url(:/res/image/ic_device_warning.svg);
+}
+
+QLabel#NoticeLabel {
+    opacity: 0.8;
+    font-family: Microsoft YaHei;
+    font-size: 13px;
+    color: #FFFFFF;
+}

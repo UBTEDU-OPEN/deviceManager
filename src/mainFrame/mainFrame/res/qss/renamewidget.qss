@@ -1,0 +1,43 @@
+﻿renamewidget QLabel,QPushButton,QLineEdit
+{
+    color: white;
+
+}
+
+renamewidget #centralwidget
+{
+    background: #444A5A;
+    border-radius: 4px;
+}
+
+renamewidget #titlebar
+{
+    height: 36px;
+    background: #505769;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+}
+
+renamewidget QPushButton#pbclose{border-image: url(:/res/images/ic_close.svg);}
+renamewidget QPushButton#pbclose:hover{border-image: url(:/res/images/ic_close_mouseover.svg);}
+renamewidget QPushButton#pbclose:pressed{border-image: url(:/res/images/ic_close_p.svg);}
+
+renamewidget QPushButton#pbok
+{
+    background: #00A5FF;
+    border-radius: 3px;
+}
+
+renamewidget QPushButton#pbcancel
+{
+    background: #5B6479;
+    border-radius: 3px;
+}
+
+renamewidget QLineEdit#lineEdit
+{
+    background-color:#313747;
+    border-radius:3px;
+}
+
