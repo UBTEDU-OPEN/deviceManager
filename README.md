@@ -5,6 +5,8 @@
   - glog
   - protobuf 3.14.x
 
-## 开源
+## 适用范围
+需配套Yanshee机器人使用本软件
 
+## 开源
 完全遵循 Qt 社区版 LGPL 协议。
